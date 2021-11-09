@@ -75,7 +75,7 @@ const App = () => {
               <button
                 className="remove"
                 type="button"
-                onClick={() => onRemove()}
+                onClick={() => onRemove(todo)}
               >
                 <MdDelete size={28} />
               </button>
